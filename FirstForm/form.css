@@ -1,0 +1,11 @@
+body{
+    background-image: url("C:\Users\Mahendra Suthar\Downloads\two.jpg") ;
+  }
+  #title, #description{
+    text-align: center;
+    
+  }
+  #survey-form{
+    
+    background-color:rgb(90, 189, 222);
+  }

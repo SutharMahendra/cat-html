@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title> First Survey Form</title>
+    <link rel="stylesheet" href="form.css">
   </head>
   <body>
-     <h1 id="title"> First Survey Form</h1>
+     <h1 id="title"> First Student Form</h1>
      <p id="description">Fill this form as per required information</p>
      <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
        <fieldset>
        <label id="name-label">
          Enter First Name :
          </label>
-         <input id="name" type="text" name="First name" placeholder="First name">
+         <input id="name" type="text" name="First name" placeholder="First name" required>
        
        <label id="name-label">
          Enter Last Name : 
          </label>
-         <input id="name" type="text" name="last name" placeholder="Last name">
+         <input id="name" type="text" name="last name" placeholder="Last name" required>
        
-       <label for="email-label">
+       <label id="email-label">
          Enter Email :
          </label>
-         <input id="email" type="email" name="email" placeholder="email">
+         <input id="email" type="email" name="email" placeholder="email" required>
        
-       <label for="number-label">
+       <label id="number-label">
          Enter Number :
          </label>
-         <input id="number" type="number" min="1" max="10" name="number" placeholder="number">
+         <input id="number" type="number" min="1" max="10" name="number" placeholder="number" required>
        
        </fieldset>
        <fieldset>
@@ -53,13 +56,13 @@
            <label>
              select your interest:
            </label>
-           <input  type="checkbox" id="one" name="IT-section" value="IT-section">
+           <input  type="checkbox" name="choose" value="IT section">
            <label>IT section</label>
 
-           <input type="checkbox" id="two" name="sport" value="sport" >
+           <input type="checkbox"  value="sport section">
            <label>sport section</label>
 
-           <input type="checkbox" id="three" name="space" value="space">
+           <input type="checkbox" value="space section">
            <label>Space section</label>
          </div>
 
@@ -67,14 +70,18 @@
            which city you belong:
          <select id="dropdown">
            <option value="">(select your city)</option>
-           <option value="1">Bhavnager</option>
+           <option value=="1">Bhavnager</option>
            <option value="2">Ahmedabad</option>
            <option value="3">Surat</option>
            <option value="4">Amreli</option>
          </select>
          </label>
+         <label for="bio"> Tell me about your self: </label>
+<br>
+           <textarea id="bio" name="bio" rows="3" cols="45"> i am a student... </textarea>
+        
        </fieldset>
-       
+       <input type="submit" id="submit" required>
      </form>
   </body>
 </html>
