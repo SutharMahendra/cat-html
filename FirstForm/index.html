@@ -4,39 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title> First Survey Form</title>
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-     <h1 id="title"> First Student Form</h1>
+     <h1 id="title"> First Survey Form</h1>
      <p id="description">Fill this form as per required information</p>
      <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
        <fieldset>
        <label id="name-label">
          Enter First Name :
          </label>
-         <input id="name" type="text" name="First name" placeholder="First name" required>
+         <br>
+         <input id="name" type="text" name="First name" placeholder="First name">
+         <br>
        
        <label id="name-label">
          Enter Last Name : 
          </label>
-         <input id="name" type="text" name="last name" placeholder="Last name" required>
+         <br>
+         <input id="name" type="text" name="last name" placeholder="Last name">
+         <br>
        
        <label id="email-label">
          Enter Email :
          </label>
-         <input id="email" type="email" name="email" placeholder="email" required>
-       
+         <br>
+         <input id="email" type="email" name="email" placeholder="email">
+       <br>
        <label id="number-label">
          Enter Number :
          </label>
-         <input id="number" type="number" min="1" max="10" name="number" placeholder="number" required>
+         <br>
+         <input id="number" type="number" min="1" max="10" name="number" placeholder="number">
+         <br>
        
        </fieldset>
        <fieldset>
          
            <div>
-             <p> Select your gender:</p>
+             <p class="select"> Select your gender:</p>
            <input id="male" type="radio" name="gender" value="male" required>
+        
             <label for="male">
             : Male
          </label>
@@ -50,24 +58,29 @@
           <label>
            : Other
          </label>
+         <br>
          </div>
 
-         <div>
-           <label>
-             select your interest:
+         <div class="section">
+           <label for="interest">
+             Select your interest:
            </label>
-           <input  type="checkbox" name="choose" value="IT section">
+           <br>
+           <input id="interest" type="checkbox" name="choose" value="IT section">
            <label>IT section</label>
-
-           <input type="checkbox"  value="sport section">
+<br>
+           <input id="interest" type="checkbox"  value="sport section">
+           
            <label>sport section</label>
-
-           <input type="checkbox" value="space section">
+<br>
+           <input id="interest" type="checkbox" value="space section">
            <label>Space section</label>
+           <br>
          </div>
 
          <label for="dropdown">
-           which city you belong:
+           Which city you belong:
+           
          <select id="dropdown">
            <option value="">(select your city)</option>
            <option value=="1">Bhavnager</option>
@@ -76,6 +89,8 @@
            <option value="4">Amreli</option>
          </select>
          </label>
+         <br>
+  
          <label for="bio"> Tell me about your self: </label>
 <br>
            <textarea id="bio" name="bio" rows="3" cols="45"> i am a student... </textarea>
