@@ -1,11 +1,107 @@
-.header
-{
-    width:100vw;
-    height :50px;
-    background-color: aqua;
-    padding: 0px;
-    margin: 0px;
+  /* CSS for styling */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-body{
-    margin : auto;
+
+header {
+    color: black;
+    padding: 0px;
+    width:100%;
+
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header li {
+    display: flex;
+    margin-right: 20px;
+}
+.ss{
+    display:flex;
+    justify-content: right;
+}
+
+
+nav {
+    background-image: linear-gradient(to right, #1660a5, #166CB9, #1660a5);
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.logo{
+    width: 80px;
+}
+/* @media (max-width: 800px)  */
+.logo img {
+    max-width: 80px;
+}
+/* 
+/* @media (max-width: 767px)  */
+/* .logo img {
+    max-width: 55px;
+} */ 
+
+.logo img {
+    float: left;
+    padding: 0 15px 0 5px;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+.logo a span {
+    display: flex;
+    font-weight: 900;
+    font-size: 110%;
+}
+.toggle-nav-bar {
+    display: block !important;
+    position: absolute;
+    top: 30px;
+    right: 0%;
+    text-align: center;
+}
+.container{
+
+    text-align: center;
+}
+.button{
+    height:40px;
+    width:60px;
+    font-size: medium;
+    display:block
 }
