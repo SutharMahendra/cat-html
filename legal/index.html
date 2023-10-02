@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
     <link rel="stylesheet" href="legal.css">
-    <title>Login Page</title>
-    <script>
-        // JavaScript function to set the selected language
-        function setLanguage(lang) {
-            // You can store the selected language in a cookie or session storage
-            // For simplicity, we'll just use a JavaScript variable here
-            let selectedLanguage = lang;
 
-            // Redirect the user to the appropriate login page in the selected language
-            switch (selectedLanguage) {
-                case "english":
-                    window.location.href = "login_english.html";
-                    break;
-                case "hindi":
-                    window.location.href = "login_hindi.html";
-                    break;
-                case "gujarati":
-                    window.location.href = "login_gujarati.html";
-                    break;
-                default:
-                    // Redirect to a default login page or handle the error
-                    break;
-            }
-        }
-    </script>
-    
 </head>
 
 <body>
-    <div class="header">
-<img src="https://www.clipartkey.com/mpngs/m/216-2169405_coat-of-arms-of-india-png-image-national.png" alt="Trulli" width="75" height="50">
 
-    </div>
-    <h1>Welcome to our website</h1>
-    <p>Please select your preferred language:</p>
-    <button onclick="setLanguage('english')">English</button>
-    <button onclick="setLanguage('hindi')">Hindi</button>
-    <button onclick="setLanguage('gujarati')">Gujarati</button>
 
+    <a href="/" title="Home" rel="home" class="header__logo" id="logo" role="link"></a>
+    <header>
+
+        <h4 class="logo">
+            <img class="national_amblem"
+                src="https://www.clipartkey.com/mpngs/m/216-2169405_coat-of-arms-of-india-png-image-national.png"
+                alt="national_amblem">
+            <!-- <div class="bar">
+                    <button onclick="openSignUpPage()">Sign up</button>
+                    <button onclick="openLogInPage()">Log in</button> -->
+            <ul>
+                <li><strong>कानूनी सलाहकार</strong></li>
+                <li>"LEGAL"
+                    <span>Consultance</span>
+                </li>
+            </ul> 
+        </h4>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Your main content goes here -->
+        <p>Welcome to Your Website. This is the main content area.</p>
+        <div class="container">
+            <button onclick="setLanguage('english')">English</button>
+            <button onclick="setLanguage('hindi')">हिन्दी </button>
+            <button onclick="setLanguage('gujarati')">ગુજરાતી</button>
+        </div>
+    </main>
+    <footer>
+        &copy; 2023 Your Website. All rights reserved.
+    </footer>
 </body>
+
 </html>
