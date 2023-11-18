@@ -2,14 +2,27 @@
 <html lang="en">
   <head>
     <title>Data Structure</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main id ="main-doc">
 
       <nav id="navbar">
-        <header>INTRODUCTION</header>
-      </nav>
+        <header>DATA STRUCTURE</header>
 
+        <ul>
+           <li><a class="nav-link" href="#INTRODUCTION">INTRODUCTION</a></li>
+
+           <li><a class="nav-link" href="#PRIMITIVE_DATA_STRUCTURE">PRIMITIVE DATA STRUCTURE</a></li>
+           <li><a class="nav-link" href="#NON-PRIMITIVE_DATA_STRUCTURE">NON-PRIMITIVE DATA STRUCTURE</a></li>
+           
+           <li><a class="nav-link" href="#LINEAR_DATA_STRUCTURE">LINEAR DATA STRUCTURE</a></li>
+           <li><a class="nav-link" href="#NON-LINEAR_DATA_STRUCTURE">NON-LINEAR DATA STRUCTURE</a></li>
+           <li><a class="nav-link" href="#STACK">STACK</a></li>
+        </ul>
+
+      </nav>
+<div id="main-section">
       <section id="INTRODUCTION" class="main-section">
         <header>INTRODUCTION</header>
          
@@ -41,7 +54,7 @@ Value of primitive data type, it cannot be NULL.
       </section>
 
       <section id="NON-PRIMITIVE_DATA_STRUCTURE" class="main-section">
-        <header><strong>NON-PRIMITIVE DATA STRUCTURE</strong></header>
+        <header>NON-PRIMITIVE DATA STRUCTURE</header>
         <p>It's a user define data type<br> In this data type you can create your own data type to store multiple data value.<br> </p>
        It has two type:
         <ol>
@@ -60,7 +73,7 @@ Value of primitive data type, it cannot be NULL.
         </section>
 
       <section id="LINEAR_DATA_STRUCTURE" class="main-section">
-        <header><strong>LINEAR DATA STRUCTURE</strong></header>
+        <header>LINEAR DATA STRUCTURE</header>
         <p>linear data structure is a sequential type of data structure. here sequential means that all the elements in the memory are stored in a sequential manner.for example : element stored after the second element would be the third element, the element stored after the fourth element and so on.</p>
         <p><strong>Stack:</strong> Stack is a data structure that follows the principle LIFO (Last In First Out). All the operations on the stack are performed from the top of the stack such as PUSH and POP operation. The push operation is the process of inserting element into the stack while the pop operation is the process of removing element from the stack. The stack data structure can be implemented by using either array or linked list.</p>
         <img src ="https://cdn.programiz.com/sites/tutorial2program/files/stack-operations.png" alt ="stack_example" width="400"/>
@@ -70,7 +83,7 @@ Value of primitive data type, it cannot be NULL.
         </section>
 
       <section id="NON-LINEAR_DATA_STRUCTURE" class="main-section">
-        <header><strong>NON-LINEAR DATA STRUCTURE</strong></header>
+        <header>NON-LINEAR DATA STRUCTURE</header>
         <p>It's type of data structure, in which the data element are not arranged in a contigous manner. <br>As the arrangement is non-sequential, so data elements cannot be traversed or accessed in a single run.<br>If you remember that in linear data structure an element can be connected to more than two elements</p>
         <p><strong>Tree :</strong> It is a non-linear data structure that consists of various linked nodes. It has a hierarchical tree structure that forms a parent-child relationship. The diagrammatic representation of a tree data structure is shown below:</p>
         <img src="https://www.tutorialandexample.com/wp-content/uploads/2020/10/image-68.png" alt="tree_example" width="400"/>
@@ -81,7 +94,7 @@ Value of primitive data type, it cannot be NULL.
         
         </section>
       <section id="STACK" class="main-section">
-        <header><strong>STACK</strong></header>
+        <header>STACK</header>
       <pre><h3>Introduction</h3>
   
 Stack is a linear Data Structure in which insertion and deletion of an element can be done from only one end.
@@ -311,6 +324,7 @@ int main(){
 
         </pre>
         </section>
+</div>
       
     </main>
   </body>
