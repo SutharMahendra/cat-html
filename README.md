@@ -1,10 +1,6 @@
 ## HTML/CSS Projects
 
-<style>
-    a{
-       text-decoration: none;
-    }
-</style>
+
 <ul>
    <li> <a href="https://sutharmahendra.github.io/FCC-HTML-CSS/Accessibility/index.html">
 Learn Accesibility </a></li>
