@@ -2,7 +2,7 @@
 
 
 <ul>
-   <li> <a href="https://sutharmahendra.github.io/FCC-HTML-CSS/Accessibility/index.html" style="text-decoration:none">
+   <li> <a href="https://sutharmahendra.github.io/FCC-HTML-CSS/Accessibility/index.html" style="text-decoration:none;">
 Learn Accesibility </a></li>
    <li> <a href="https://sutharmahendra.github.io/FCC-HTML-CSS/Balancesheet/index.html">Balancesheet </a> </li>
    <li> <a href="https://sutharmahendra.github.io/FCC-HTML-CSS/BoxModel/index.html">
